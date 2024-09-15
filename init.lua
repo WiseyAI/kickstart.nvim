@@ -58,7 +58,8 @@ require('lazy').setup({
   require 'kickstart.plugins.autoformatter',
   require 'kickstart.plugins.whichkey',
   require 'kickstart.plugins.miscellenous',
-  require 'kickstart.plugins.aplha',
+  require 'kickstart.plugins.alpha',
+  require 'kickstart.plugins.trouble',
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
