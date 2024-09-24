@@ -12,6 +12,9 @@ return {
     'tpope/vim-sleuth',
   },
   {
+    'tpope/vim-commentary',
+  },
+  {
     -- Powerful Git integration for Vim
     'tpope/vim-fugitive',
   },
