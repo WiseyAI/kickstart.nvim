@@ -7,8 +7,8 @@ return {
 
     -- Set initial transparency
     vim.cmd [[
-      hi Normal guibg=NONE
-      hi NormalFloat guibg=NONE
+          hi Normal guibg=#1a1b26
+          hi NormalFloat guibg=#1a1b26
     ]]
     vim.g.transparent_enabled = true
 
