@@ -37,7 +37,7 @@ vim.opt.rtp:prepend(lazypath)
 --  You can press `?` in this menu for help. Use `:q` to close the window
 --
 --  To update plugins you can run
---    :Lazy update
+--   :Lazy update
 --
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup({
@@ -61,6 +61,7 @@ require('lazy').setup({
   require 'kickstart.plugins.alpha',
   require 'kickstart.plugins.trouble',
   require 'kickstart.plugins.markdown-preview',
+  require 'kickstart.plugins.obsidian',
   require 'kickstart.plugins.supermaven',
 }, {
   ui = {
