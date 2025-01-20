@@ -62,6 +62,7 @@ require('lazy').setup({
   require 'kickstart.plugins.trouble',
   require 'kickstart.plugins.markdown-preview',
   require 'kickstart.plugins.obsidian',
+  require 'kickstart.plugins.oil',
   require 'kickstart.plugins.supermaven',
 }, {
   ui = {
